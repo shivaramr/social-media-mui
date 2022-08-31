@@ -20,7 +20,10 @@ export default function Rightbar() {
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>
-        <AvatarGroup max={5} sx={{display:'flex',justifyContent:'flex-end'}}>
+        <AvatarGroup
+          max={5}
+          sx={{ display: "flex", justifyContent: "flex-end" }}
+        >
           <Avatar
             alt="Remy Sharp"
             src="https://material-ui.com/static/images/avatar/1.jpg"
